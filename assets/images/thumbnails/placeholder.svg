@@ -1,12 +1,38 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
-  <rect width="800" height="450" fill="#151C2C"/>
-  <rect x="1" y="1" width="798" height="448" fill="none" stroke="#334155" stroke-width="1"/>
-  <!-- Play icon -->
-  <circle cx="400" cy="200" r="48" fill="none" stroke="#334155" stroke-width="2"/>
-  <polygon points="388,180 388,220 424,200" fill="#334155"/>
-  <!-- Label area -->
-  <rect x="150" y="280" width="500" height="12" rx="6" fill="#1E293B"/>
-  <rect x="250" y="304" width="300" height="10" rx="5" fill="#1E293B"/>
-  <!-- Editkaro brand mark -->
-  <text x="400" y="390" font-family="sans-serif" font-size="13" fill="#475569" text-anchor="middle" letter-spacing="2">EDITKARO.IN</text>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#151C2C"/>
+      <stop offset="100%" stop-color="#1E293B"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#475569" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#475569" stop-opacity="0.03"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="800" height="450" fill="url(#bg)"/>
+  <!-- Subtle gradient overlay -->
+  <rect width="800" height="450" fill="url(#shine)"/>
+  <!-- Border -->
+  <rect x="1" y="1" width="798" height="448" fill="none" stroke="#475569" stroke-width="1" stroke-opacity="0.3"/>
+  <!-- Grid lines (decorative) -->
+  <line x1="0" y1="150" x2="800" y2="150" stroke="#475569" stroke-opacity="0.05" stroke-width="1"/>
+  <line x1="0" y1="300" x2="800" y2="300" stroke="#475569" stroke-opacity="0.05" stroke-width="1"/>
+  <line x1="266" y1="0" x2="266" y2="450" stroke="#475569" stroke-opacity="0.05" stroke-width="1"/>
+  <line x1="533" y1="0" x2="533" y2="450" stroke="#475569" stroke-opacity="0.05" stroke-width="1"/>
+  <!-- Icon circle -->
+  <circle cx="400" cy="185" r="52" fill="#475569" fill-opacity="0.12"/>
+  <circle cx="400" cy="185" r="52" fill="none" stroke="#475569" stroke-width="1.5" stroke-opacity="0.5"/>
+  <!-- Icon (scaled/centered 24px viewbox → 40px rendered) -->
+  <g transform="translate(380, 165) scale(1.667)" stroke="#475569" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M5 3L19 12L5 21V3Z"/>
+  </g>
+  <!-- Category label -->
+  <text x="400" y="280" font-family="'Outfit', 'Inter', sans-serif" font-size="11" font-weight="600"
+        fill="#475569" fill-opacity="0.9" text-anchor="middle" letter-spacing="4">EDITKARO.IN</text>
+  <!-- Separator -->
+  <rect x="340" y="296" width="120" height="1" fill="#475569" fill-opacity="0.2"/>
+  <!-- Brand -->
+  <text x="400" y="320" font-family="'Outfit', 'Inter', sans-serif" font-size="12" font-weight="400"
+        fill="#64748B" text-anchor="middle" letter-spacing="2">EDITKARO.IN</text>
 </svg>
