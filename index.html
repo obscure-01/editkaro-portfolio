@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Editkaro.in | Professional Video Editing Agency</title>
+  <meta name="description" content="Editkaro.in is a premium Social Media Marketing & Video Editing Agency providing cutting-edge video editing for creators and brands.">
+  
+  <!-- Favicon Placeholder -->
+  <link rel="icon" href="./assets/icons/favicon.svg" type="image/svg+xml">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Outfit:wght@400;500;700&display=swap" rel="stylesheet">
+  
+  <!-- CSS Links -->
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/variables.css">
+  <link rel="stylesheet" href="./css/components.css">
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+<body class="page">
+  <header class="header">
+    <div class="header__container">
+      <a href="/" class="header__logo" aria-label="Editkaro.in Homepage">
+        Editkaro.in
+      </a>
+      <nav class="nav" aria-label="Main Navigation">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#work" class="nav__link">Work</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="button button--primary">Work With Us</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero__content">
+        <h1 id="hero-title" class="hero__title">
+          Elevate Your Content with Premium Video Editing
+        </h1>
+        <p class="hero__description">
+          We craft high-converting, visually stunning videos for creators, brands, and agencies worldwide.
+        </p>
+        <a href="#contact" class="button button--primary">Get A Quote</a>
+      </div>
+    </section>
+
+    <section class="filters" aria-labelledby="filters-title">
+      <!-- Visually hidden heading for screen readers -->
+      <h2 id="filters-title" class="filters__title filters__title--visually-hidden">Portfolio Categories</h2>
+      <div class="filters__container">
+        <button class="button button--filter button--active" aria-pressed="true" data-category="all" aria-label="Show all categories">All</button>
+        <button class="button button--filter" aria-pressed="false" data-category="short-form" aria-label="Show Short Form Videos">Short Form</button>
+        <button class="button button--filter" aria-pressed="false" data-category="long-form" aria-label="Show Long Form Videos">Long Form</button>
+        <button class="button button--filter" aria-pressed="false" data-category="gaming" aria-label="Show Gaming Videos">Gaming</button>
+        <button class="button button--filter" aria-pressed="false" data-category="football" aria-label="Show Football Edits">Football</button>
+        <button class="button button--filter" aria-pressed="false" data-category="ecommerce" aria-label="Show eCommerce Ads">eCommerce</button>
+        <button class="button button--filter" aria-pressed="false" data-category="documentary" aria-label="Show Documentary Style">Documentary</button>
+        <button class="button button--filter" aria-pressed="false" data-category="color-grading" aria-label="Show Color Grading">Color Grading</button>
+        <button class="button button--filter" aria-pressed="false" data-category="anime" aria-label="Show Anime Videos">Anime</button>
+        <button class="button button--filter" aria-pressed="false" data-category="ads" aria-label="Show Advertisements">Advertisements</button>
+      </div>
+    </section>
+
+    <section id="work" class="portfolio" aria-labelledby="portfolio-title">
+      <!-- Visually hidden heading for screen readers -->
+      <h2 id="portfolio-title" class="portfolio__title portfolio__title--visually-hidden">Our Work Gallery</h2>
+      <div class="portfolio__grid">
+        
+        <!-- Category: Short Form -->
+        <article class="portfolio-card" data-category="short-form">
+          <figure class="portfolio-card__figure">
+            <div class="portfolio-card__image-wrapper">
+              <img class="portfolio-card__image" src="./assets/images/thumbnails/placeholder.webp" alt="Client Name - Short Form Project 1" loading="lazy">
+              <div class="portfolio-card__overlay">
+                <button class="portfolio-card__play-button" aria-label="Play Client Name - Short Form Project 1">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <path d="M5 3L19 12L5 21V3Z" fill="currentColor"/>
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <figcaption class="portfolio-card__content-wrapper">
+              <span class="portfolio-card__badge">Short Form Videos</span>
+              <h3 class="portfolio-card__title">Client Name - Short Form Project 1</h3>
+            </figcaption>
+          </figure>
+        </article>
+
+        <article class="portfolio-card" data-category="short-form">
+          <figure class="portfolio-card__figure">
+            <div class="portfolio-card__image-wrapper">
+              <img class="portfolio-card__image" src="./assets/images/thumbnails/placeholder.webp" alt="Client Name - Short Form Project 2" loading="lazy">
+              <div class="portfolio-card__overlay">
+                <button class="portfolio-card__play-button" aria-label="Play Client Name - Short Form Project 2">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <path d="M5 3L19 12L5 21V3Z" fill="currentColor"/>
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <figcaption class="portfolio-card__content-wrapper">
+              <span class="portfolio-card__badge">Short Form Videos</span>
+              <h3 class="portfolio-card__title">Client Name - Short Form Project 2</h3>
+            </figcaption>
+          </figure>
+        </article>
+
+        <!-- Category: Long Form -->
+        <article class="portfolio-card" data-category="long-form">
+          <figure class="portfolio-card__figure">
+            <div class="portfolio-card__image-wrapper">
+              <img class="portfolio-card__image" src="./assets/images/thumbnails/placeholder.webp" alt="Client Name - Long Form Project 1" loading="lazy">
+              <div class="portfolio-card__overlay">
+                <button class="portfolio-card__play-button" aria-label="Play Client Name - Long Form Project 1">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <path d="M5 3L19 12L5 21V3Z" fill="currentColor"/>
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <figcaption class="portfolio-card__content-wrapper">
+              <span class="portfolio-card__badge">Long Form Videos</span>
+              <h3 class="portfolio-card__title">Client Name - Long Form Project 1</h3>
+            </figcaption>
+          </figure>
+        </article>
+
+        <article class="portfolio-card" data-category="long-form">
+          <figure class="portfolio-card__figure">
+            <div class="portfolio-card__image-wrapper">
+              <img class="portfolio-card__image" src="./assets/images/thumbnails/placeholder.webp" alt="Client Name - Long Form Project 2" loading="lazy">
+              <div class="portfolio-card__overlay">
+                <button class="portfolio-card__play-button" aria-label="Play Client Name - Long Form Project 2">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <path d="M5 3L19 12L5 21V3Z" fill="currentColor"/>
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <figcaption class="portfolio-card__content-wrapper">
+              <span class="portfolio-card__badge">Long Form Videos</span>
+              <h3 class="portfolio-card__title">Client Name - Long Form Project 2</h3>
+            </figcaption>
+          </figure>
+        </article>
+
+        <!-- Category: Gaming -->
+        <article class="portfolio-card" data-category="gaming">
+          <figure class="portfolio-card__figure">
+            <div class="portfolio-card__image-wrapper">
+              <img class="portfolio-card__image" src="./assets/images/thumbnails/placeholder.webp" alt="Client Name - Gaming Project 1" loading="lazy">
+              <div class="portfolio-card__overlay">
+                <button class="portfolio-card__play-button" aria-label="Play Client Name - Gaming Project 1">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <path d="M5 3L19 12L5 21V3Z" fill="currentColor"/>
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <figcaption class="portfolio-card__content-wrapper">
+              <span class="portfolio-card__badge">Gaming Videos</span>
+              <h3 class="portfolio-card__title">Client Name - Gaming Project 1</h3>
+            </figcaption>
+          </figure>
+        </article>
+
+        <article class="portfolio-card" data-category="gaming">
+          <figure class="portfolio-card__figure">
+            <div class="portfolio-card__image-wrapper">
+              <img class="portfolio-card__image" src="./assets/images/thumbnails/placeholder.webp" alt="Client Name - Gaming Project 2" loading="lazy">
+              <div class="portfolio-card__overlay">
+                <button class="portfolio-card__play-button" aria-label="Play Client Name - Gaming Project 2">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <path d="M5 3L19 12L5 21V3Z" fill="currentColor"/>
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <figcaption class="portfolio-card__content-wrapper">
+              <span class="portfolio-card__badge">Gaming Videos</span>
+              <h3 class="portfolio-card__title">Client Name - Gaming Project 2</h3>
+            </figcaption>
+          </figure>
+        </article>
+
+        <!-- Category: Football -->
+        <article class="portfolio-card" data-category="football">
+          <figure class="portfolio-card__figure">
+            <div class="portfolio-card__image-wrapper">
+              <img class="portfolio-card__image" src="./assets/images/thumbnails/placeholder.webp" alt="Client Name - Football Project 1" loading="lazy">
+              <div class="portfolio-card__overlay">
+                <button class="portfolio-card__play-button" aria-label="Play Client Name - Football Project 1">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <path d="M5 3L19 12L5 21V3Z" fill="currentColor"/>
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <figcaption class="portfolio-card__content-wrapper">
+              <span class="portfolio-card__badge">Football Edits</span>
+              <h3 class="portfolio-card__title">Client Name - Football Project 1</h3>
+            </figcaption>
+          </figure>
+        </article>
+
+        <article class="portfolio-card" data-category="football">
+          <figure class="portfolio-card__figure">
+            <div class="portfolio-card__image-wrapper">
+              <img class="portfolio-card__image" src="./assets/images/thumbnails/placeholder.webp" alt="Client Name - Football Project 2" loading="lazy">
+              <div class="portfolio-card__overlay">
+                <button class="portfolio-card__play-button" aria-label="Play Client Name - Football Project 2">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <path d="M5 3L19 12L5 21V3Z" fill="currentColor"/>
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <figcaption class="portfolio-card__content-wrapper">
+              <span class="portfolio-card__badge">Football Edits</span>
+              <h3 class="portfolio-card__title">Client Name - Football Project 2</h3>
+            </figcaption>
+          </figure>
+        </article>
+
+        <!-- Category: eCommerce -->
+        <article class="portfolio-card" data-category="ecommerce">
+          <figure class="portfolio-card__figure">
+            <div class="portfolio-card__image-wrapper">
+              <img class="portfolio-card__image" src="./assets/images/thumbnails/placeholder.webp" alt="Client Name - eCommerce Project 1" loading="lazy">
+              <div class="portfolio-card__overlay">
+                <button class="portfolio-card__play-button" aria-label="Play Client Name - eCommerce Project 1">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <path d="M5 3L19 12L5 21V3Z" fill="currentColor"/>
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <figcaption class="portfolio-card__content-wrapper">
+              <span class="portfolio-card__badge">eCommerce Ads</span>
+              <h3 class="portfolio-card__title">Client Name - eCommerce Project 1</h3>
+            </figcaption>
+          </figure>
+        </article>
+
+        <article class="portfolio-card" data-category="ecommerce">
+          <figure class="portfolio-card__figure">
+            <div class="portfolio-card__image-wrapper">
+              <img class="portfolio-card__image" src="./assets/images/thumbnails/placeholder.webp" alt="Client Name - eCommerce Project 2" loading="lazy">
+              <div class="portfolio-card__overlay">
+                <button class="portfolio-card__play-button" aria-label="Play Client Name - eCommerce Project 2">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <path d="M5 3L19 12L5 21V3Z" fill="currentColor"/>
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <figcaption class="portfolio-card__content-wrapper">
+              <span class="portfolio-card__badge">eCommerce Ads</span>
+              <h3 class="portfolio-card__title">Client Name - eCommerce Project 2</h3>
+            </figcaption>
+          </figure>
+        </article>
+
+        <!-- Category: Documentary -->
+        <article class="portfolio-card" data-category="documentary">
+          <figure class="portfolio-card__figure">
+            <div class="portfolio-card__image-wrapper">
+              <img class="portfolio-card__image" src="./assets/images/thumbnails/placeholder.webp" alt="Client Name - Documentary Project 1" loading="lazy">
+              <div class="portfolio-card__overlay">
+                <button class="portfolio-card__play-button" aria-label="Play Client Name - Documentary Project 1">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <path d="M5 3L19 12L5 21V3Z" fill="currentColor"/>
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <figcaption class="portfolio-card__content-wrapper">
+              <span class="portfolio-card__badge">Documentary Style</span>
+              <h3 class="portfolio-card__title">Client Name - Documentary Project 1</h3>
+            </figcaption>
+          </figure>
+        </article>
+
+        <article class="portfolio-card" data-category="documentary">
+          <figure class="portfolio-card__figure">
+            <div class="portfolio-card__image-wrapper">
+              <img class="portfolio-card__image" src="./assets/images/thumbnails/placeholder.webp" alt="Client Name - Documentary Project 2" loading="lazy">
+              <div class="portfolio-card__overlay">
+                <button class="portfolio-card__play-button" aria-label="Play Client Name - Documentary Project 2">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <path d="M5 3L19 12L5 21V3Z" fill="currentColor"/>
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <figcaption class="portfolio-card__content-wrapper">
+              <span class="portfolio-card__badge">Documentary Style</span>
+              <h3 class="portfolio-card__title">Client Name - Documentary Project 2</h3>
+            </figcaption>
+          </figure>
+        </article>
+
+        <!-- Category: Color Grading -->
+        <article class="portfolio-card" data-category="color-grading">
+          <figure class="portfolio-card__figure">
+            <div class="portfolio-card__image-wrapper">
+              <img class="portfolio-card__image" src="./assets/images/thumbnails/placeholder.webp" alt="Client Name - Color Grading Project 1" loading="lazy">
+              <div class="portfolio-card__overlay">
+                <button class="portfolio-card__play-button" aria-label="Play Client Name - Color Grading Project 1">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <path d="M5 3L19 12L5 21V3Z" fill="currentColor"/>
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <figcaption class="portfolio-card__content-wrapper">
+              <span class="portfolio-card__badge">Color Grading</span>
+              <h3 class="portfolio-card__title">Client Name - Color Grading Project 1</h3>
+            </figcaption>
+          </figure>
+        </article>
+
+        <article class="portfolio-card" data-category="color-grading">
+          <figure class="portfolio-card__figure">
+            <div class="portfolio-card__image-wrapper">
+              <img class="portfolio-card__image" src="./assets/images/thumbnails/placeholder.webp" alt="Client Name - Color Grading Project 2" loading="lazy">
+              <div class="portfolio-card__overlay">
+                <button class="portfolio-card__play-button" aria-label="Play Client Name - Color Grading Project 2">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <path d="M5 3L19 12L5 21V3Z" fill="currentColor"/>
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <figcaption class="portfolio-card__content-wrapper">
+              <span class="portfolio-card__badge">Color Grading</span>
+              <h3 class="portfolio-card__title">Client Name - Color Grading Project 2</h3>
+            </figcaption>
+          </figure>
+        </article>
+
+        <!-- Category: Anime -->
+        <article class="portfolio-card" data-category="anime">
+          <figure class="portfolio-card__figure">
+            <div class="portfolio-card__image-wrapper">
+              <img class="portfolio-card__image" src="./assets/images/thumbnails/placeholder.webp" alt="Client Name - Anime Project 1" loading="lazy">
+              <div class="portfolio-card__overlay">
+                <button class="portfolio-card__play-button" aria-label="Play Client Name - Anime Project 1">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <path d="M5 3L19 12L5 21V3Z" fill="currentColor"/>
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <figcaption class="portfolio-card__content-wrapper">
+              <span class="portfolio-card__badge">Anime Videos</span>
+              <h3 class="portfolio-card__title">Client Name - Anime Project 1</h3>
+            </figcaption>
+          </figure>
+        </article>
+
+        <article class="portfolio-card" data-category="anime">
+          <figure class="portfolio-card__figure">
+            <div class="portfolio-card__image-wrapper">
+              <img class="portfolio-card__image" src="./assets/images/thumbnails/placeholder.webp" alt="Client Name - Anime Project 2" loading="lazy">
+              <div class="portfolio-card__overlay">
+                <button class="portfolio-card__play-button" aria-label="Play Client Name - Anime Project 2">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <path d="M5 3L19 12L5 21V3Z" fill="currentColor"/>
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <figcaption class="portfolio-card__content-wrapper">
+              <span class="portfolio-card__badge">Anime Videos</span>
+              <h3 class="portfolio-card__title">Client Name - Anime Project 2</h3>
+            </figcaption>
+          </figure>
+        </article>
+
+        <!-- Category: Ads -->
+        <article class="portfolio-card" data-category="ads">
+          <figure class="portfolio-card__figure">
+            <div class="portfolio-card__image-wrapper">
+              <img class="portfolio-card__image" src="./assets/images/thumbnails/placeholder.webp" alt="Client Name - Ads Project 1" loading="lazy">
+              <div class="portfolio-card__overlay">
+                <button class="portfolio-card__play-button" aria-label="Play Client Name - Ads Project 1">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <path d="M5 3L19 12L5 21V3Z" fill="currentColor"/>
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <figcaption class="portfolio-card__content-wrapper">
+              <span class="portfolio-card__badge">Advertisements</span>
+              <h3 class="portfolio-card__title">Client Name - Ads Project 1</h3>
+            </figcaption>
+          </figure>
+        </article>
+
+        <article class="portfolio-card" data-category="ads">
+          <figure class="portfolio-card__figure">
+            <div class="portfolio-card__image-wrapper">
+              <img class="portfolio-card__image" src="./assets/images/thumbnails/placeholder.webp" alt="Client Name - Ads Project 2" loading="lazy">
+              <div class="portfolio-card__overlay">
+                <button class="portfolio-card__play-button" aria-label="Play Client Name - Ads Project 2">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <path d="M5 3L19 12L5 21V3Z" fill="currentColor"/>
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <figcaption class="portfolio-card__content-wrapper">
+              <span class="portfolio-card__badge">Advertisements</span>
+              <h3 class="portfolio-card__title">Client Name - Ads Project 2</h3>
+            </figcaption>
+          </figure>
+        </article>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__container">
+      <div class="footer__social-links">
+        <a href="#" class="footer__social-link" aria-label="Instagram">
+          <svg class="footer__icon" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/>
+          </svg>
+        </a>
+        <a href="#" class="footer__social-link" aria-label="YouTube">
+          <svg class="footer__icon" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.5 12 3.5 12 3.5s-7.505 0-9.377.55a3.016 3.016 0 0 0-2.122 2.136C0 8.096 0 12 0 12s0 3.904.501 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.55 9.377.55 9.377.55s7.505 0 9.377-.55a3.016 3.016 0 0 0 2.122-2.136C24 15.904 24 12 24 12s0-3.904-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+          </svg>
+        </a>
+        <a href="#" class="footer__social-link" aria-label="Twitter">
+          <svg class="footer__icon" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723 10.054 10.054 0 01-3.127 1.184 4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
+          </svg>
+        </a>
+      </div>
+      <p class="footer__copyright">&copy; 2024 Editkaro.in. All rights reserved.</p>
+      <a href="mailto:hello@editkaro.in" class="footer__contact-link">hello@editkaro.in</a>
+    </div>
+  </footer>
+
+  <!-- JavaScript Links -->
+  <script src="./js/data.js" defer></script>
+  <script src="./js/filter.js" defer></script>
+  <script src="./js/main.js" defer></script>
+</body>
+</html>
