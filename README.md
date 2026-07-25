@@ -2,9 +2,9 @@
 
 A modern, highly responsive, and premium portfolio website designed for a social media marketing and video editing agency. Built entirely from scratch using native web technologies, it features dynamic content rendering, semantic HTML5 structure, and high-performance Vanilla JavaScript.
 
-[Live Demo](https://obscure-01.github.io/editkaro-portfolio/) | [Repository](https://github.com/obscure-01/editkaro-portfolio)
+🌐 **Live Demo:** https://obscure-01.github.io/editkaro-portfolio/
 
-![Editkaro Portfolio Preview](./assets/preview.png)
+📂 **Repository:** https://github.com/obscure-01/editkaro-portfolio
 
 ## Overview
 
