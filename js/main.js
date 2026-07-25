@@ -48,17 +48,19 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const openMenu = () => {
       navToggle.setAttribute('aria-expanded', 'true');
-      // Inline styles used as a fallback since CSS cannot be modified for a new class
       navList.style.display = 'flex';
       navList.style.flexDirection = 'column';
-      navList.style.position = 'absolute';
-      navList.style.top = '100%';
+      navList.style.position = 'fixed';
+      navList.style.top = header.offsetHeight + 'px';
       navList.style.left = '0';
+      navList.style.right = '0';
       navList.style.width = '100%';
       navList.style.backgroundColor = 'var(--color-bg-secondary, #151C2C)';
       navList.style.padding = '16px';
       navList.style.boxShadow = '0 10px 15px -3px rgba(0, 0, 0, 0.5)';
       navList.style.gap = '16px';
+      navList.style.zIndex = '99';
+      navList.style.borderBottom = '1px solid #334155';
     };
 
     navToggle.addEventListener('click', (e) => {

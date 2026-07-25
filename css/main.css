@@ -46,7 +46,6 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
   width: 100%;
   z-index: var(--z-navbar);
-  /* Solid background representing the scrolled/ready state */
   background-color: var(--color-bg-secondary);
   border-bottom: var(--border-width) solid var(--color-border);
   box-shadow: var(--shadow-md);
@@ -54,6 +53,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header__container {
+  position: relative; /* Anchor for the mobile nav dropdown */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -92,6 +92,21 @@ h1, h2, h3, h4, h5, h6 {
 .nav {
   display: flex;
   align-items: center;
+}
+
+.nav__toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  color: var(--color-text-primary);
+}
+
+@media (min-width: 768px) {
+  .nav__toggle {
+    display: none;
+  }
 }
 
 .nav__list {
