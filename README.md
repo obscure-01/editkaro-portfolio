@@ -4,7 +4,7 @@ A modern, highly responsive, and premium portfolio website designed for a social
 
 [Live Demo](https://obscure-01.github.io/editkaro-portfolio/) | [Repository](https://github.com/obscure-01/editkaro-portfolio)
 
-![Editkaro Portfolio Preview](./assets/images/thumbnails/placeholder.webp)
+![Editkaro Portfolio Preview](./assets/preview.png)
 
 ## Overview
 
